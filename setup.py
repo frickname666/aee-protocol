@@ -1,25 +1,25 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="aeeprotocol",
-    version="8.0.0-beta1",
-    author="Franco Luciano Carricondo",
-    author_email="francocarricondo@gmail.com",
-    description="Vector traceability with legal certification for AI embeddings",
-    long_description=open("README.md").read(),
+    name="aee-protocol",
+    version="8.0.0",
+    author="Franco Carricondo",
+    author_email="tu-email@ejemplo.com",  # Pon tu email real si quieres
+    description="Protocolo de trazabilidad e identidad para embeddings vectoriales",
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ProtocoloAEE/aee-protocol",
-    packages=find_packages(),
+    packages=find_packages(),  # Esto busca automáticamente la carpeta 'aeeprotocol'
     classifiers=[
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Topic :: Security :: Cryptography",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Security :: Cryptography",
     ],
-    python_requires=">=3.9",
+    python_requires=">=3.8",
     install_requires=[
-        "numpy>=1.21.0",
-        "scipy>=1.7.0",
-        "cryptography>=36.0.0",
+        "numpy>=1.20.0",
+        # Aquí puedes agregar 'pinecone-client' u otros si decides hacerlos obligatorios
     ],
 )
