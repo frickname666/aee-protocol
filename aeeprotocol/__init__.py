@@ -2,7 +2,7 @@
 AEE Protocol - Cryptographic Watermarking for Vector Embeddings
 """
 
-__version__ = "0.2.3"
+__version__ = "0.2.4"
 __author__ = "Franco Luciano Carricondo"
 __email__ = "francocarricondo@gmail.com"
 __license__ = "MIT"
