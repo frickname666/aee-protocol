@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="aeeprotocol",
-    version="0.2.3",
+    version="0.2.5",
     author="Franco Luciano Carricondo",
     author_email="francocarricondo@gmail.com",
     description="Cryptographic watermarking for vector embeddings",
